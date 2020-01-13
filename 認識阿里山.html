@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>認識阿里山 Meet Alishan</title>
+<style>
+.box{
+  background-color:ghostwhite;
+  width:800px;
+  height:580px;
+  box-shadow:0px 0px 35px rgba(1.100.250.1);
+  transition:1s;
+}
+
+html,body{
+  background-image: url(https://www.ali-nsa.net/zh-tw/content/images/static/ali-img-1-md.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  margin:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:20px;
+  font-family:微軟正黑體;
+}
+
+a{
+  color:darkcyan;
+  text-decoration:initial;
+}
+
+
+.top{
+  height:200px;
+  position:relative;
+  background-image: url(https://www.ali-nsa.net/zh-tw/content/images/static/ali-img-2-md.jpg);
+  background-size:cover;
+
+}
+.top .name{
+  position:static;
+  left:0;
+  bottom:0;
+  letter-spacing:10px;/*文字空間*/
+  background:linear-gradient(transparent 0%,#87CEEB);/*漸層*/
+  }
+
+.tag{
+  width:70px;
+  height:130px;
+  float:right;
+  margin-right:30px;
+  background:linear-gradient(transparent 0%,pink);
+}
+
+
+.rect1 {
+  float:left;
+}
+.rect2{
+        float:right;
+    }
+.rect1,.rect2{
+  display: inline-block;
+  background:linear-gradient(transparent 0%,#E0FFFF);
+}
+.rect2:hover{
+  -webkit-transform:translate(3px,3px);
+          transform:translate(3px,3px);
+  background-color:#007FFF;
+  color:red;
+}
+.rect1:hover{
+  -webkit-transform:translate(3px,3px);
+          transform:translate(3px,3px);
+  background-color: #007FFF;
+  color: red;
+}
+
+.bottom{
+  padding:20px 20px 20px 20px;
+}
+.bottom li{
+  padding:5px 0px;
+}
+.bottom ul{
+  list-style:circle;
+  padding-left:0;
+}
+.bottom h3{
+  display: inline-block;
+  margin:0;
+  letter-spacing:2px;
+}
+.button{
+  padding:1.5px;
+}
+
+</style>
+</head>
+<body translate="no">
+<div class="box">
+<div class="top">
+<h2 class="name">認識阿里山的氣候
+Alishan of
+climate</h2>
+<div class="tag"></div>
+</div>
+<div class="bottom">
+    <h1><strong>氣溫變化大，山勢起伏多</strong></h1>
+    <p>阿里山地區四面高山環繞，氣候涼爽，年平均溫度約在攝氏10度左右，平均最低溫度為攝氏8度，平均最高溫攝氏15.7度；濕度大、雨量充沛（四月到九月為雨季，十月到翌年三月為旱季），也時常有濃霧，出遊需要特別留意。
+        海拔高度起伏變化大，東部山區屬阿里山山脈，由大塔山、石水山、兜山、萬歲山、塔山、祝山、尖山等十八座主要山巒構成，溪流橫貫其間。清水溪上游段因地形起伏，流經岩壁巨石，瀑布景觀特別發達，在瑞峰、瑞里、豐山境內清水溪支流流經處就形成了龍宮、雷音、雲潭、石鼓盤瀑布等景觀。</p>
+<div class="button">
+<a class="rect1" href="index.html">回首頁</a>
+<a class="rect2" href="https://www.ali-nsa.net/zh-tw/explore/alishan" target="_blank">更多資訊</a>
+</div>
+</div>
+</div>
+</body>
+</html>
